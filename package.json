@@ -1,0 +1,31 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "This is a task tracker with the ability to set a priority, deadline, and task type. You can also delete tasks or mark them as completed",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+	"dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyassky/web-apps-to-do-list.git"
+  },
+  "author": "Ranis Vakhitov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyassky/web-apps-to-do-list/issues"
+  },
+  "homepage": "https://github.com/nyassky/web-apps-to-do-list#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
