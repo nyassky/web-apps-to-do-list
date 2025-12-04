@@ -9,15 +9,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nyassky/web-apps-to-do-list.git"
+    "type": "git"
   },
-  "author": "Ranis Vakhitov",
+  "author": "Your Name",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nyassky/web-apps-to-do-list/issues"
   },
-  "homepage": "https://github.com/nyassky/web-apps-to-do-list#readme",
   "dependencies": {
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",

@@ -33,6 +33,7 @@ html, body {
 	font-size: clamp(16px, 2vw, 20px); 
 	background-color: white;
 	box-sizing: border-box;
+	border: none;
 	flex: 1 1 auto;
 	min-width: 60px;
 	transition: all 0.3s ease;

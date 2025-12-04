@@ -4,8 +4,8 @@ const { Pool } = require("pg");
 require("dotenv").config();
 const cors = require("cors");
 const corsOptions = {
-    origin: 'http://localhost:5500',
-    methods: ['GET', 'POST', 'PUT', 'DELETE']
+	origin: 'http://localhost:5500',
+	methods: ['GET', 'POST', 'PUT', 'DELETE']
 };
 const app = express();
 app.use(cors(corsOptions));
